@@ -1,0 +1,47 @@
+#gallery {
+    padding: 10px;
+    text-align: left;
+    font-size: 12px;
+    height: 360px;
+    overflow: auto;
+    margin: 0px
+}
+
+#gallery ul {
+    list-style: none;
+    margin: 0px
+}
+
+#gallery ul li {
+    display: inline;
+    width: 350px;
+    height: 150px;
+    float: left;
+    margin: 5px 5px 5px;
+    border: 0px solid #ccc;
+}
+
+#gallery ul a:hover img {
+    border: 1px solid green;
+    margin: 0px;
+}
+
+.notfengmian {
+    padding: 5px 5px;
+    border: 0px;
+    margin: 0px;
+}
+
+.pic_back {
+    text-align: left;
+    font-size: 12px;
+    padding: 0px 20px;
+}
+
+.o_bg_color {
+    background-color: #EAEAEA
+}
+
+.no_bg_color {
+    background-color: #FFFFFF
+}
